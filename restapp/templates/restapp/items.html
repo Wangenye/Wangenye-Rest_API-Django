@@ -1,0 +1,42 @@
+{% extends 'restapp/base.html' %} {% block content %}
+<div class="container">
+    <h1 class="title has-text-centered">Items </h1>
+
+    <!-- {% for item in items %} {{ item.name }}
+    <img src="{{ item.image.url }}" alt="No Image Here"> {% endfor %} -->
+
+    <div class="columns  is-multiline is-desktop">
+        {% for item in items %}
+        <div class="column is-3 is-mobile">
+
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        {{item.name}}
+                    </p>
+                </header>
+                <div class="card-image">
+                    <figure class="image is-480x480 is-mobile">
+                        <img src="{{ item.image.url }}" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        {{item.description}}
+
+                    </div>
+                    <button class="button">KSH: {{ item.amount }}</button>
+                </div>
+
+                <footer class="card-footer">
+                    <!-- <a href="#" class="card-footer-item">Save</a> -->
+                    <a href="#" class="card-footer-item">Order Item</a>
+                    <a href="#" class="card-footer-item">Details</a>
+                </footer>
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+
+    {% endblock %}
