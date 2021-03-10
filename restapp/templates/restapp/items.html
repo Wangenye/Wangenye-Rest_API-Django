@@ -1,6 +1,6 @@
 {% extends 'restapp/base.html' %} {% block content %}
 <div class="container">
-    <h1 class="title has-text-centered">Items </h1>
+    <h1 class="title p-5 m-1 is-outlined has-text-centered">Items </h1>
 
     <!-- {% for item in items %} {{ item.name }}
     <img src="{{ item.image.url }}" alt="No Image Here"> {% endfor %} -->
@@ -22,7 +22,7 @@
                 </div>
                 <div class="card-content">
                     <div class="content">
-                        {{item.description}}
+                        {{item.description|truncatechars:25}}
 
                     </div>
                     <button class="button">KSH: {{ item.amount }}</button>
