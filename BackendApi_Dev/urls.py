@@ -28,6 +28,8 @@ urlpatterns = [
     path('signup',SignUp,name='signup'),
      path('login/',views.LoginView.as_view(template_name='customerApp/login.html'),name='login'),
      path('logout/',views.LogoutView.as_view(),name='logout'),
+     path('<int:item_id>/orderpage',OrderPage,name="orderpage"),
+     path('<int:order_id>/order_detail',OrderPage,name="order_detail"),
     path('openid/',include('oidc_provider.urls',namespace='oidc_provider')),
     path('itemsapi/',ItemApiView.as_view(),name="itemsapi"),
      path('orderapi/',OrderApi.as_view(),name="orderapi"),
