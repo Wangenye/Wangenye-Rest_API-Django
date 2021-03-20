@@ -15,13 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls.conf import include
 from restapp.views import *
+from customerApp.views import *
 from django.conf import settings
 import django
 from django.conf.urls.static import static
+from django.contrib.auth import views 
 
 urlpatterns = [
     # path('',IndexPage,name='index'),
+    path('signup',SignUp,name='signup'),
+     path('login/',views.LoginView.as_view(template_name='customerApp/login.html'),name='login'),
+     path('logout/',views.LogoutView.as_view(),name='logout'),
+    path('openid/',include('oidc_provider.urls',namespace='oidc_provider')),
     path('itemsapi/',ItemApiView.as_view(),name="itemsapi"),
      path('orderapi/',OrderApi.as_view(),name="orderapi"),
     path('',ItemsPage,name='home'),

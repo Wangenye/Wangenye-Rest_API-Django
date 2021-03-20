@@ -22,4 +22,4 @@ class Order(models.Model):
         ordering = ['timestamp']
 
     def __str__(self):
-        return 'Order_no: %s ' % (self.order_no, )
+        return '%s: %s ' % (self.order_no,self.timestamp )
