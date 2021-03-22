@@ -17,7 +17,7 @@ $ sudo docker-compose up
 
 <p>
   This is a Siple Django Order web app that uploads then Database Details to the relevant customer or Order APIs.
-  ## Steps.
+  <h1>Steps</h1>
   <ol>
     <li>Login --Defaults: <i>user:Customer<br> password: kinky100.</i><br>
       or <em>Signup as a new user</em>
