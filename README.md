@@ -33,6 +33,14 @@ $ sudo docker-compose up
       <img src="https://user-images.githubusercontent.com/43230510/111957986-c1efa880-8afd-11eb-82fe-309fa6f6b068.png">
     </li>
 </ol>
+##TO view The API
+On Navbar ,Click on the Developers dropdown Menu and select teh Api  to View
+1.Customer API View
+<img src="https://user-images.githubusercontent.com/43230510/111958571-6ffb5280-8afe-11eb-9389-d5acbe05c8b9.png">
+2.Order API View 
+<img src="https://user-images.githubusercontent.com/43230510/111958544-6a057180-8afe-11eb-8027-a83b6cd9e75b.png">
+
+
 <p>
 
 
