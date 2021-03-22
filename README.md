@@ -15,4 +15,8 @@ $ sudo docker-compose build
 
 $ sudo docker-compose up
 
+<p> 
+  This is a Siple Django Order web app that uploads then Database Details to the relevant customer or Order APIs.
+<p>
+
 
