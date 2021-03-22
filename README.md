@@ -44,3 +44,7 @@ On Navbar ,Click on the Developers dropdown Menu and select teh Api  to View <br
 <p>
 
 
+# TESTS 
+![Screenshot_20210322_120709](https://user-images.githubusercontent.com/43230510/111966202-b43f2080-8b07-11eb-87d2-29bc73c60e40.png)
+
+
