@@ -1,5 +1,6 @@
 
 
+
 # Rest_API-Django
 
 ## To set Up the project
@@ -20,9 +21,9 @@ $ sudo docker-compose up
   This is a Siple Django Order web app that uploads then Database Details to the relevant customer or Order APIs.
   ## Steps.
   <ol>
-    <li>Login --Defaults: <i>user:Admin<br> password: admin.</i>
-    <br>![Login](https://user-images.githubusercontent.com/43230510/111955332-67088200-8afa-11eb-9526-aecb83ec7b5f.png
-       <img src="https://user-images.githubusercontent.com/43230510/111955332-67088200-8afa-11eb-9526-aecb83ec7b5f.png">
+    <li>Login --Defaults: <i>user:Customer<br> password: kinky100.</i>
+    <br>
+       <img src="https://user-images.githubusercontent.com/43230510/111956838-4e996700-8afc-11eb-9752-eddcdb15a0be.png">
     </li>
 </ol>
 <p>
