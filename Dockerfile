@@ -42,7 +42,9 @@ COPY ./requirements.txt /webapp/
 
 RUN pip install -r requirements.txt  
 
-COPY  . /app
+COPY  . /webapp
 
+RUN python manage.py collectstatic --noinput --clear
 
+CMD gunicorn BackendApi_Dev.wsgi:application
 
