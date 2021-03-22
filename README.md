@@ -28,7 +28,11 @@ $ sudo docker-compose up
     On the Items page 
     <li> Click on order Item</li>
     <li>Fill in the Phone number in order to receive an Order confirmation Sms Then hit Submit<li>
-    <li> For Order Confirmation Click on the Confirm order Card to receive the SMS with the details of your order</li>
+    <li> For Order Confirmation Click on the Confirm order Card to receive the SMS with the details of your order
+    <br>
+      <img src="https://user-images.githubusercontent.com/43230510/111957986-c1efa880-8afd-11eb-82fe-309fa6f6b068.png
+">
+    </li>
 </ol>
 <p>
 
