@@ -9,4 +9,10 @@
   <li>pip3 install -r requirements.txt</li>
 </ul>
 
+### To run The project using Docker 
+
+$ sudo docker-compose build
+
+$ sudo docker-compose up
+
 
