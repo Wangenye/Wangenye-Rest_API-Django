@@ -33,7 +33,7 @@ $ sudo docker-compose up
       <img src="https://user-images.githubusercontent.com/43230510/111957986-c1efa880-8afd-11eb-82fe-309fa6f6b068.png">
     </li>
 </ol>
-## TO view The API
+<h1> TO view The API</h1>
 <br>
 On Navbar ,Click on the Developers dropdown Menu and select teh Api  to View
 1.Customer API View
