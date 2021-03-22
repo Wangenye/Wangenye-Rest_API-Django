@@ -17,7 +17,7 @@ $ sudo docker-compose build
 
 $ sudo docker-compose up
 
-<p> ![Screenshot_20210322_105908](https://user-images.githubusercontent.com/43230510/111958544-6a057180-8afe-11eb-8027-a83b6cd9e75b.png)
+<p>
   This is a Siple Django Order web app that uploads then Database Details to the relevant customer or Order APIs.
   ## Steps.
   <ol>
@@ -35,7 +35,7 @@ $ sudo docker-compose up
 </ol>
 <h1> TO view The API</h1>
 <br>
-On Navbar ,Click on the Developers dropdown Menu and select teh Api  to View
+On Navbar ,Click on the Developers dropdown Menu and select teh Api  to View <br>
 1.Customer API View
 <img src="https://user-images.githubusercontent.com/43230510/111958571-6ffb5280-8afe-11eb-9389-d5acbe05c8b9.png">
 2.Order API View 
