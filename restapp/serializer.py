@@ -1,5 +1,7 @@
 from rest_framework import  serializers
 from .models import  Item,Order
+# from customerApp.models import User
+from django.contrib.auth.models import User
 
 class ItemSerializer(serializers.ModelSerializer):
     items = serializers.StringRelatedField(many=True)
@@ -15,3 +17,8 @@ class OrderedItems(serializers.ModelSerializer):
     class Meta:
         model = Order
         fields = ['name',"amount","order_no","timestamp"]
+
+class CustomerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['username',"id",]
