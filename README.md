@@ -21,7 +21,8 @@ $ sudo docker-compose up
   ## Steps.
   <ol>
     <li>Login --Defaults: <i>user:Admin<br> password: admin.</i>
-    <br>![Login](https://user-images.githubusercontent.com/43230510/111955332-67088200-8afa-11eb-9526-aecb83ec7b5f.png)
+    <br>![Login](https://user-images.githubusercontent.com/43230510/111955332-67088200-8afa-11eb-9526-aecb83ec7b5f.png
+       <img src="https://user-images.githubusercontent.com/43230510/111955332-67088200-8afa-11eb-9526-aecb83ec7b5f.png">
     </li>
 </ol>
 <p>
