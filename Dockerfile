@@ -42,7 +42,7 @@ COPY ./requirements.txt /webapp/
 
 RUN pip install -r requirements.txt  
 
-COPY  . /webapp
+COPY  . /app
 
 RUN python manage.py collectstatic --noinput --clear
 
