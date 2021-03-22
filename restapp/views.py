@@ -102,7 +102,7 @@ def OrderDetails(request):
 def ConfirmOrder(request,order_id):
     confirm = get_object_or_404(Order,pk=order_id)
     username = "sandbox"
-    api_key ="c110a50034b61d4deb579bd45053013a9a647d896106c5d617ea986f2e6a565d"  
+    # api_key ="c110a50034b61d4deb579bd45053013a9a647d896106c5d617ea986f2e6a565d"  
     # api_key = env('API_KEY')
     africastalking.initialize(username, api_key)
     sms = africastalking.SMS
