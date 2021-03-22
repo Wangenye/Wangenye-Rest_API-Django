@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 import os
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+# AUTHENTICATION_BACKENDS = ("okta_oauth2.backend.OktaBackend",)
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,9 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    # 'okta_oauth2.apps.OktaOauth2Config'
     'restapp',
     'customerApp',
     'oidc_provider',
+     'crispy_forms',
+
 ]
 
 MIDDLEWARE = [
@@ -52,6 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'okta_oauth2.middleware.OktaMiddleware',
 ]
 
 ROOT_URLCONF = 'BackendApi_Dev.urls'

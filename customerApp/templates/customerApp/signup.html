@@ -1,17 +1,21 @@
-<form action="" method="post">
-    {% csrf_token %} {{form.as_p}}
+{% extends 'restapp/base.html' %} {% load crispy_forms_tags %} {% block content %}
 
-    <!-- <div class="field">
-        <div class="control has-icons-left has-icons-right">
-            <p>
-                <input class="input" type="text" name="phone" id="id_phone" placeholder="Phone Number">
-                <span class="icon is-small is-left">
-                    <i class="fas fa-phone "></i>
-                  </span>
-            </p>
-        </div>
-    </div> -->
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %} {{ form|crispy }}
 
-    <button type="submit">Signup</button>
+        <!-- <div class="field">
+            <div class="control has-icons-left has-icons-right">
+                <p>
+                    <input class="input" type="text" name="phone" id="id_phone" placeholder="Phone Number">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-phone "></i>
+                      </span>
+                </p>
+            </div>
+        </div> -->
 
-</form>
+        <button class="button is-success" type="submit">Signup</button>
+    </form>
+</div>
+{% endblock %}

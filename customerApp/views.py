@@ -14,11 +14,11 @@ def SignUp(request):
         # phone = PhoneForm(request.post)
         # form = SignUpForm(request.POST)
 
-        if form.is_valid() and phone.is_valid():
+        if form.is_valid():
              user = form.save()
-             number = request.POST.get('phone')
-             phone = UserProfile.objects.create(user=user,)
-             phone.save()
+            #  number = request.POST.get('phone')
+            #  phone = UserProfile.objects.create(user=user,)
+            #  phone.save()
              login(request,user)
              return redirect('/')
 
