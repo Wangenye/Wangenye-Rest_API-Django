@@ -27,7 +27,7 @@ SECRET_KEY = '!72n2%dp4oa88&a+6!k-17xxo#^m@sop=mnz3$u=4@#=q08bpn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # AUTHENTICATION_BACKENDS = ("okta_oauth2.backend.OktaBackend",)
 # Application definition
