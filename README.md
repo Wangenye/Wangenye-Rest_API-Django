@@ -1,6 +1,4 @@
 
-
-
 # Rest_API-Django
 
 ## To set Up the project
@@ -39,7 +37,7 @@ On Navbar ,Click on the Developers dropdown Menu and select teh Api  to View <br
 1.Customer API View
 <img src="https://user-images.githubusercontent.com/43230510/111958571-6ffb5280-8afe-11eb-9389-d5acbe05c8b9.png">
 2.Order API View 
-<img src="https://user-images.githubusercontent.com/43230510/111958544-6a057180-8afe-11eb-8027-a83b6cd9e75b.png">
+<img src="https://user-images.githubusercontent.com/43230510/111959478-91a90980-8aff-11eb-8b8b-47f253e096e2.png">
 
 
 <p>
