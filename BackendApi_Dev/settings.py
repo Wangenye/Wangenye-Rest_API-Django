@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'customerApp',
     'oidc_provider',
      'crispy_forms',
+     'coverage'
 
 ]
 
