@@ -14,4 +14,4 @@ class ItemTest(TestCase):
     def test_item_creation(self):
         w = self.create_item()
         self.assertTrue(isinstance(w, Item))
-        # self.assertEqual(True,w.name)/
+        self.assertEqual(w.name,"Item testing")
