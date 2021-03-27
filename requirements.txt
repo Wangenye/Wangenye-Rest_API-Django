@@ -7,7 +7,9 @@ chardet==4.0.0
 contextlib2==0.6.0.post1
 coverage==5.5
 cryptography==3.4.6
+defusedxml==0.7.1
 Django==3.1.7
+django-allauth==0.44.0
 django-crispy-forms==1.11.2
 django-environ==0.4.5
 django-filter==2.4.0
@@ -19,6 +21,7 @@ future==0.18.2
 gunicorn==20.0.4
 idna==2.10
 Markdown==3.3.4
+oauthlib==3.1.0
 Pillow==8.1.2
 pyasn1==0.4.8
 pycparser==2.20
@@ -27,8 +30,10 @@ pyjwkest==1.4.2
 PyJWT==1.7.1
 python-dotenv==0.15.0
 python-jose==3.2.0
+python3-openid==3.2.0
 pytz==2021.1
 requests==2.25.1
+requests-oauthlib==1.3.0
 rsa==4.7.2
 schema==0.7.4
 six==1.15.0

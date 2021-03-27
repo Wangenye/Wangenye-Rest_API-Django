@@ -24,10 +24,10 @@ from django.conf.urls.static import static
 from django.contrib.auth import views 
 
 urlpatterns = [
-    #  path('accounts/', include(("okta_oauth2.urls", "okta_oauth2"), namespace="okta_oauth2")),
+     path('accounts/', include('allauth.urls')),
     # path('<int:order_id>/smssend/',SendSms,name='sms'),
     path('signup',SignUp,name='signup'),
-     path('login/',views.LoginView.as_view(template_name='customerApp/login.html'),name='login'),
+     path('accounts/login/',views.LoginView.as_view(template_name='account/login.html'),name='login'),
      path('logout/',views.LogoutView.as_view(),name='logout'),
      path('<int:item_id>/orderpage',OrderPage,name="orderpage"),
      path('<int:order_id>/checkout',ConfirmOrder,name="checkout"),

@@ -38,5 +38,5 @@ def SignUp(request):
         #     print("SignUp Form Error")
     else:
         form = UserCreationForm()
-    return render(request,'customerApp/signup.html',{'form':form,})
+    return render(request,'account/signup.html',{'form':form,})
 

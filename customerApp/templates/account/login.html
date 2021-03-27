@@ -1,0 +1,47 @@
+{% extends 'restapp/base.html'%} {% load socialaccount%} {% block content %}
+<div class="container">
+    <div class="column is-6 is-offset-3">
+        <h1 class="title">Login Here</h1>
+
+        <form action="." method="post">
+            {% csrf_token %}
+            <!-- {{ form.as_p}} -->
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <p>
+                        <input class="input" type="text" name="username" id="id_username" placeholder="Username">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user "></i>
+                          </span>
+                    </p>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                    <p>
+                        <input class="input" type="password" name="password" id="id_password" placeholder="Password">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-key "></i>
+                          </span>
+                    </p>
+                </div>
+            </div>
+            jhafgyusdgyufsgdygsuy
+            <div class="field is-offset-3">
+                <div class="control is-offset-3">
+
+                    <button class="button is-success">Login</button>
+                    <a href="{% provider_login_url 'google' %}" class="" role="button" aria-pressed="true">Sign in with Google</a> hfgfgffkgfk
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="margin-bottom: 100px;"></div>
+
+{% endblock %}
+
+<!-- <p>
+    <input type="text" name="password" id="id_password" placeholder="Password">
+</p> -->
